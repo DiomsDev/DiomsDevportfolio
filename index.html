@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio de Mamadou Pacôme Diomande, développeur d'applications web." />
+  <title>DiomsDev | Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Boxicons -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <a href="#accueil" class="logo">Dioms<span>Dev.</span></a>
+
+    <button class="menu-toggle" id="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false">
+      <i class="bx bx-menu"></i>
+    </button>
+
+    <nav class="navbar" id="navbar">
+      <a href="#accueil" class="active">Accueil</a>
+      <a href="#apropos">À propos</a>
+      <a href="#competences">Compétences</a>
+      <a href="#formation">Formation</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ACCUEIL -->
+    <section class="home section" id="accueil">
+      <div class="home-content reveal-left">
+        <p class="eyebrow"><span class="status-dot"></span> Disponible pour de nouvelles opportunités</p>
+        <h1>Bonjour, je suis <span class="accent"> Diomande Mamadou Pacôme</span></h1>
+        <h2>Développeur <span class="typed-text"></span></h2>
+        <p class="intro">
+          Je conçois des applications web modernes, utiles et faciles à utiliser.
+          J'aime transformer les idées en solutions numériques concrètes.
+        </p>
+        <div class="home-buttons">
+          <a href="#contact" class="btn">Me contacter <i class="bx bx-right-arrow-alt"></i></a>
+          <a href="#apropos" class="btn btn-outline">Découvrir mon profil</a>
+        </div>
+        <div class="social-links" aria-label="Réseaux sociaux">
+          <a href="https://github.com/DiomsDev" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="bx bxl-github"></i></a>
+          <a href="https://www.facebook.com/mamadoupacome.diomande" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="bx bxl-facebook"></i></a>
+          <!-- WhatsApp : numéro au format international sans le + ni les espaces -->
+          <a href="https://wa.me/2250576222800" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i class="bx bxl-whatsapp"></i></a>
+          <a href="mailto:pacomemamadoudiomande@gmail.com" aria-label="E-mail"><i class="bx bx-envelope"></i></a>
+        </div>
+      </div>
+
+      <div class="home-visual reveal-right">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="hero-photo-wrap">
+          <img src="Dioms.png" alt="Portrait professionnel de Mamadou Pacôme Diomande" class="hero-photo" />
+          <div class="photo-caption">
+            <span class="photo-caption-icon"><i class="bx bx-code-alt"></i></span>
+            <div><strong>DiomsDev</strong><small>Développeur d'applications</small></div>
+          </div>
+        </div>
+        <div class="floating-icon icon-code"><i class="bx bx-code-curly"></i></div>
+        <div class="floating-icon icon-brain"><i class="bx bx-bulb"></i></div>
+      </div>
+      <a href="#apropos" class="scroll-down" aria-label="Défiler vers la section À propos"><i class="bx bx-chevrons-down"></i></a>
+    </section>
+
+    <!-- À PROPOS -->
+    <section class="about section" id="apropos">
+      <div class="section-heading reveal">
+        <p class="section-kicker">Qui suis-je ?</p>
+        <h2>À propos de <span>moi</span></h2>
+        <p>Un développeur curieux, motivé et orienté vers la résolution de problèmes.</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-mark about-photo-card reveal-left">
+          <img src="DiomsDev.png" alt="Portrait de Mamadou Pacôme Diomande en costume" class="about-photo" />
+          <div class="about-photo-label"><strong> Diomande Mamadou Pacôme</strong><span>Développeur d'applications</span></div>
+        </div>
+        <div class="about-text reveal-right">
+          <h3>Je donne vie aux idées grâce au code.</h3>
+          <p>
+            Titulaire d'un BTS en Informatique Développeur d'Applications, je m'intéresse
+            à la conception et au développement d'applications web. J'apprécie autant
+            la réflexion sur les besoins que la réalisation technique et l'amélioration
+            de l'expérience utilisateur.
+          </p>
+          <p>
+            Je travaille notamment avec HTML, CSS, JavaScript, Python et Django.
+            Je continue à renforcer mes compétences à travers des projets pratiques
+            et l'apprentissage de nouvelles technologies.
+          </p>
+          <div class="about-facts">
+            <div><strong>Web</strong><span>Interfaces responsives</span></div>
+            <div><strong>Back-end</strong><span>Logique et données</span></div>
+            <div><strong>Évolution</strong><span>Apprentissage continu</span></div>
+          </div>
+          <a href="#competences" class="text-link">Voir mes compétences <i class="bx bx-right-arrow-alt"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- COMPÉTENCES -->
+    <section class="skills section" id="competences">
+      <div class="section-heading reveal">
+        <p class="section-kicker">Ce que je sais faire</p>
+        <h2>Mes <span>compétences</span></h2>
+        <p>Les technologies que j'utilise pour concevoir et développer des applications.</p>
+      </div>
+
+      <div class="skills-grid">
+        <article class="skill-card reveal">
+          <div class="skill-icon"><i class="bx bx-code-alt"></i></div>
+          <h3>Développement front-end</h3>
+          <p>Créer des interfaces claires, responsives et agréables à utiliser.</p>
+          <div class="skill-tags"><span>HTML5</span><span>CSS3</span><span>JavaScript</span></div>
+        </article>
+        <article class="skill-card reveal">
+          <div class="skill-icon"><i class="bx bx-server"></i></div>
+          <h3>Développement back-end</h3>
+          <p>Mettre en place la logique métier, les traitements et les fonctionnalités.</p>
+          <div class="skill-tags"><span>Python</span><span>Django</span><span>Flask</span></div>
+        </article>
+        <article class="skill-card reveal">
+          <div class="skill-icon"><i class="bx bx-data"></i></div>
+          <h3>Bases de données</h3>
+          <p>Structurer, enregistrer et exploiter les données d'une application.</p>
+          <div class="skill-tags"><span>MySQL</span><span>SQLite</span></div>
+        </article>
+        <article class="skill-card reveal">
+          <div class="skill-icon"><i class="bx bx-git-branch"></i></div>
+          <h3>Outils & déploiement</h3>
+          <p>Organiser le code, collaborer et préparer la mise en ligne d'un projet.</p>
+          <div class="skill-tags"><span>Git</span><span>GitHub</span><span>Docker</span></div>
+        </article>
+      </div>
+      <p class="small-note reveal">Les compétences présentées sont modifiables selon ton niveau réel et les technologies que tu souhaites mettre en avant.</p>
+    </section>
+
+    <!-- FORMATION -->
+    <section class="education section" id="formation">
+      <div class="section-heading reveal">
+        <p class="section-kicker">Mon parcours</p>
+        <h2>Formation & <span>expérience</span></h2>
+        <p>Les étapes qui contribuent à mon évolution professionnelle.</p>
+      </div>
+
+      <div class="timeline">
+        <article class="timeline-item reveal-left">
+          <div class="timeline-dot"><i class="bx bxs-graduation"></i></div>
+          <div class="timeline-content">
+            <span class="timeline-date">Diplôme obtenu</span>
+            <h3>BTS Informatique — Développeur d'Applications</h3>
+            <p>Formation en programmation, conception d'applications, bases de données et développement logiciel.</p>
+          </div>
+        </article>
+        <article class="timeline-item reveal-right">
+          <div class="timeline-dot"><i class="bx bx-briefcase"></i></div>
+          <div class="timeline-content">
+            <span class="timeline-date">Expérience professionnelle</span>
+            <h3>Assistant conseiller — Agence Emploi Jeunes</h3>
+            <p>Stage à Daoukro : accompagnement des activités et développement de compétences professionnelles et relationnelles.</p>
+          </div>
+        </article>
+        <article class="timeline-item reveal-left">
+          <div class="timeline-dot"><i class="bx bx-laptop"></i></div>
+          <div class="timeline-content">
+            <span class="timeline-date">Projet de développement</span>
+            <h3>DIRAGENDA — Application de gestion d'agenda</h3>
+            <p>Projet web de gestion des activités, rendez-vous, missions, réunions et comptes rendus avec Django.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact section" id="contact">
+      <div class="section-heading reveal">
+        <p class="section-kicker">Parlons de votre projet</p>
+        <h2>Me <span>contacter</span></h2>
+        <p>Une opportunité, une collaboration ou une idée ? Écrivons la suite ensemble.</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-info reveal-left">
+          <h3>Restons en contact</h3>
+          <p>Tu peux me contacter pour une opportunité de stage, un emploi ou un projet de développement web.</p>
+          <a href="mailto:pacomemamadoudiomande@gmail.com" class="contact-line"><i class="bx bx-envelope"></i><span>pacomemamadoudiomande@gmail.com</span></a>
+          <div class="contact-line"><i class="bx bx-map"></i><span>Daoukro, Côte d'Ivoire</span></div>
+          <a href="https://github.com/DiomsDev" target="_blank" rel="noopener noreferrer" class="contact-line"><i class="bx bxl-github"></i><span>github.com/DiomsDev</span></a>
+          <a href="https://www.facebook.com/mamadoupacome.diomande" target="_blank" rel="noopener noreferrer" class="contact-line"><i class="bx bxl-facebook"></i><span>Mon profil Facebook</span></a>
+          <!-- WhatsApp : numéro au format international sans le + ni les espaces -->
+          <a href="https://wa.me/2250576222800" target="_blank" rel="noopener noreferrer" class="contact-line"><i class="bx bxl-whatsapp"></i><span>Me contacter sur WhatsApp</span></a>
+        </div>
+
+        <form class="contact-form reveal-right" id="contact-form">
+          <div class="input-row">
+            <label>Nom
+              <input type="text" name="nom" placeholder="Votre nom" required />
+            </label>
+            <label>E-mail
+              <input type="email" name="email" placeholder="vous@exemple.com" required />
+            </label>
+          </div>
+          <label>Objet
+            <input type="text" name="objet" placeholder="Objet du message" required />
+          </label>
+          <label>Message
+            <textarea name="message" rows="5" placeholder="Écrivez votre message..." required></textarea>
+          </label>
+          <button class="btn" type="submit">Préparer le message <i class="bx bx-send"></i></button>
+          <p class="form-note" id="form-note">Le formulaire ouvrira votre application e-mail. Il ne stocke pas les messages sur un serveur.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a href="#accueil" class="logo">Dioms<span>Dev.</span></a>
+    <p>© <span id="year"></span> DiomsDev — Conçu avec passion.</p>
+    <a href="#accueil" class="back-top" aria-label="Retour en haut"><i class="bx bx-up-arrow-alt"></i></a>
+  </footer>
+
+  <!-- Typed.js -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <!-- ScrollReveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="script.js"></script>
+</body>
+</html>
